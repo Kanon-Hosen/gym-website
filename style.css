@@ -1,0 +1,188 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.jpg');
+}
+.left{
+    display: inline-block;
+    left: 50px;
+    position: absolute;
+    top: 20px;
+}
+.mid{
+    display: block;
+    margin: 20px auto;
+    width: 37%;
+    top: 20px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 45px;
+    top: 20px;
+}
+.navbar{
+    display: flex;
+    margin: 2px 2px;
+    text-align: center;
+    align-items: center;
+
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.navbar li a{
+    font-size: 15px;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 2px 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar li a:hover{
+    color: rgb(173, 169, 169);
+    text-decoration: underline;
+}
+.btn{
+    margin: 1px 15px;
+    padding: 2px 10px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+   color: rgb(207, 199, 199);
+}
+.logo{
+    height: 60px;
+    margin: -17px 26px;
+    padding: 2px 2px;
+}
+div{
+    font-size: 17px;
+    align-items: center;
+    cursor: pointer;
+}
+.continer{
+    font-family: 'Poppins', sans-serif;
+    border:2px solid white ;
+    border-radius: 10px;
+    width: 40%;
+    margin: 89px 74px;
+    padding: 39px 2px;
+    align-items: center;
+
+}
+h1{
+    margin: 8px 23px;
+    font-size: 30px;
+    text-align: center;
+}
+.forum_group input{
+    font-size: 19px;
+    margin: 15px 123px;
+    padding: 4px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    margin: 6px 139px;
+    padding: 6px 93px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+}
+.btn2:hover{
+    color: rgb(189, 181, 181);
+}
+
+/* -----------------responsive-------------------- */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .left{
+        display: none;
+    }
+    .mid{
+        display: block;
+        width: 100vw;
+        background: rgb(49, 49, 49);
+        margin-top: 0px;
+        padding: 7px 0px;
+        
+    }
+    .right{
+        display: none;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .continer{
+        border: none;
+        width: 100vw;
+        margin: 20px 0px;
+        padding: 50px 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    h1{
+        text-align: center;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        font-size: 27px;
+    }
+    .forum_group{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .forum_group input{
+        font-size: 15px;
+        width: 40vw;
+        margin: 15px 123px;
+        padding: 4px 18px;
+        border-radius: 10px;
+        border: none;
+    }
+    .btn2{
+        margin: 6px 140px;
+        padding: 3px 85px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+        border-radius: 15px;
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+    }
+  }
